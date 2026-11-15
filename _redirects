@@ -1,0 +1,16 @@
+# Never expose source/build/doc files publicly
+/build.py                     /404.html  404!
+/README.md                    /404.html  404!
+/DEPLOYMENT.md                /404.html  404!
+/LEAD-CAPTURE-SETUP.md        /404.html  404!
+/assets/img/README-images.md  /404.html  404!
+/integrations/*               /404.html  404!
+
+# Netlify / Cloudflare Pages redirects (pretty URLs + 404)
+/about           /about.html            200
+/standard        /standard.html         200
+/certification   /certification.html    200
+/professionals   /professionals.html    200
+/diagnostic      /diagnostic.html       200
+/contact         /contact.html          200
+/*               /404.html              404
