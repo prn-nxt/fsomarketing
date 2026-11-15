@@ -685,7 +685,6 @@ home = f"""
   </div>
 </section>
 
-{testimonials_block()}
 {cta_band()}
 <script type="application/ld+json">
 {{
@@ -906,7 +905,7 @@ services = f"""
     <div style="max-width:820px;">
       <p class="breadcrumbs reveal"><a href="index.html">Home</a><span>/</span>Services</p>
       <p class="eyebrow on-dark reveal">What we do</p>
-      <h1 class="h-xl reveal">Two free steps, then two paid steps. Nothing else.</h1>
+      <h1 class="h-xl reveal">Two steps to understand where you stand. Two to prove it.</h1>
       <p class="lede reveal">FSO measures and certifies. Start with a free diagnostic and a Discovery Call, then the FSO Assessment and, for those who clear the line, FSO Certification. You close the gaps yourself, with a guide we provide.</p>
       <div class="btn-group mt-m reveal">
         <button class="btn btn-primary btn-lg" type="button" data-open-diagnostic>Know Your FSO Score <span class="ar">&#8594;</span></button>
